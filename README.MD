@@ -37,3 +37,8 @@ A **generic** function with `K extends keyof T`, so the key must be a real prope
 Returns a **Promise** of a string.
 - If `age` is less than `18`, it rejects right away with the error `"Access Denied: Must be 18 or older"`.
 - Otherwise it waits 1 second and resolves with `"Access Granted"`.
+
+## My Blogs
+
+- [What's the Difference between Type and Interface in TypeScript?](type-vs-interface.md)
+- [How does the tsc command work?](tsc-and-tsconfig.md)
